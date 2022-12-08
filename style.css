@@ -1,0 +1,499 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica,sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container1 {
+    background-color:black;
+    color:white;
+    font-size: 14px;
+    display: flex;
+    height:64px;
+    align-items: center;
+    
+}
+
+.headleft {
+    flex: 0.3;
+    text-align: center;
+    font-size: 24px;
+}
+
+.headmid {
+    font-weight: bold;
+    flex: 1;
+    
+   
+}
+
+.headmid-link {
+    color: white;
+}
+
+.headmid ul{
+   display: flex;
+}
+
+.headmid ul li {
+    padding:10px 12px;
+}
+
+.headright {
+    font-weight: bold;
+    flex:2.2;
+    
+}
+
+
+.headright ul {
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.headright ul li {
+    padding: 10px 12px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.headright i{
+    margin-right: 10px;
+}
+
+/* Button*/
+.click {
+    color:white;
+    padding:10px 18px;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.click:hover {
+    background: gray;
+    
+}
+
+.button1 {
+    color:black;
+    background-color: white;
+    padding:10px 18px;
+    border-radius: 15px;
+    transition: 0.8s;
+}
+
+.button1:hover {
+    background: gray;
+
+}
+.headright ul li:last-child{
+    color:black;
+}
+
+/*SECTİON PART 1*/
+
+
+.container-2 {
+    position: absolute;
+    padding:64px 90px;
+    height: 719px;
+    width:100%;
+}
+
+
+.box {
+    background-color:white;
+    max-width:48%;
+    height:100%;
+}
+
+.menu {
+    background-color:#FAFAF9;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:121px;
+    border-bottom: 2px solid #FAFAF9 ;
+    font-size: 14px;
+}
+
+
+.menu ul a{
+    align-self: center;
+    color: black;
+}
+
+.part1 ul, .part2 ul, .part3 ul{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 14px 8px 14px;
+}
+
+.box-2 {
+    font-size: 16px;
+    padding:48px;
+    height: 506px;
+
+}
+
+.text h2 {
+    font-size:52px;
+}
+
+.text p {
+    line-height: 24px;
+    margin-top: 35px;;
+}
+
+.register {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.register button {
+    font-size: 16px;
+    text-align: start;
+    padding:14px 25px;
+    background-color: black;
+    color:white;
+    cursor:pointer;
+
+}
+
+button {
+    font-weight: bold;
+    width:max-content;  /* Why doesnt work with  (.register button)*/
+    border-radius: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    transition: 0.8s;
+}
+
+button:hover {
+    background:gray;
+}
+
+.register p {
+    max-width: max-content;
+    border-bottom:1px solid grey;
+}
+
+.mainphoto {
+    width:100%;
+    height:719px;
+    
+}
+
+/* SECTİON PART 2*/
+
+.container-3 {
+    padding:64px 90px 64px 90px;
+    height: 300px;
+    background: url(https://i1.adis.ws/i/canon/get-inspired-composition-tips-urban-cityscapes-1-16x9_e95812d0403b4d39a2ed2bf9d9be2a07?$hero-header-half-16by9-dt-jpg$);
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity:0,9;
+
+}
+
+.container-3 h3{
+    color:white;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.container-3 p {
+    color:white;
+}
+
+
+
+.see  {                             /*feedback improving*/
+    background-color: black;
+    padding: 12px 30px;
+    color: white;
+    width: max-content;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 35px;
+    transition: 0.8s;
+    cursor: pointer;
+    border: none;
+}
+
+.see:hover {
+    background-color: gray;
+}
+
+
+/*Safety Section*/        /* Feedback Section*/
+
+.container-4 {
+    padding:64px 80px 64px 80px;
+}
+
+.container-4 h3 {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.container-4 h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin:10px 0 10px 0 ;
+}
+
+.container-4 p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.safety {
+    display: flex;
+    justify-content:space-around;
+    gap:30px;
+}
+
+.driver img, .safety img{
+    width: 100%;
+}
+
+
+
+.driver p, .traffic p{
+    max-width:max-content
+}
+
+
+/* FOOTER SECTİON*/
+
+.leg {
+    background-color: black;
+    padding:64px 80px;
+}
+
+
+.finger {
+    color:white;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows:repeat(auto,1fr); /* 100px auto  da kulanılabilir.*/
+    gap:36px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+.info1 {
+  
+    grid-column: 1 / span 2;
+}
+.info2 {
+    
+    grid-column:  span 10;
+    justify-self:end;
+}
+
+.info3 {
+   
+    grid-column: span 3;
+}
+
+.info4 {
+    
+    grid-column:span 3;
+}
+
+.info5 {
+    
+    grid-column:span 3;
+}
+
+.info6 {
+   
+    grid-column: span 3;
+    
+}
+
+.info8 {
+    grid-column: span 5;
+    justify-self: end;
+    padding: 0px 5px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.info9 {
+    grid-column: span 2;
+    padding: 0px 5px;
+    border-radius: 15px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    justify-self: end;
+}
+/*
+@media screen and (min-width:1024px)and (max-width:1240px) {
+    .container-2{
+        padding:0;
+        position: static;
+        height:min-content;
+    }  
+}
+*/
+@media screen and (min-width:600px)and (max-width:1024px){
+
+    .headmid{
+        display:none;
+    }
+    .headright-link1{
+        display: none;
+    }
+
+    .container-2{
+        padding:0;
+        position: static;
+        height:min-content;
+    }
+    .menu {
+        justify-content: left;
+    }
+    .box {
+        max-width: 100%;
+        height: 420px;
+    }
+    .register p {
+        border:none;
+    }
+    .text h2 {
+        font-size:44px;
+    }
+    .finger {
+        color:white;
+        display:grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows:repeat(auto,1fr); /* 100px auto  da kulanılabilir.*/
+        gap:36px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+   .info2 {
+        justify-self: start;
+   }
+   .info4 {
+        grid-column: span 6;
+   }
+   .info6 {
+        grid-column: span 7;
+   }
+   .insta {
+        grid-column: span 6;
+   }
+   .info8{
+        grid-column: 1 / 2;
+        grid-row:6 / 7;
+   }
+   .info9 {
+    grid-column: 1 / 3;
+    grid-row:7 / 8;
+    justify-self: start;
+   };
+
+   .container-3 {
+    height: 300px;
+   }
+
+   .mainphoto {
+    height:auto;
+   }
+}
+
+   
+
+ @media screen and (max-width: 600px){
+    .headmid{
+        display:none;
+    }
+    .headright-link1{
+        display: none;
+    }
+
+    .container-2{
+        padding:0;
+    }
+    .menu {
+        justify-content: left;
+    }
+    .box {
+        max-width: 100%;
+        height: 450px;
+    }
+    .text h2 {
+        font-size:44px;
+    }
+    .register p {
+        border:none;
+    }
+    .finger {
+        color:white;
+        display:grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows:repeat(auto,1fr); /* 100px auto  da kulanılabilir.*/
+        gap:36px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+   .info2 {
+        justify-self: start;
+   }
+   .info4 {
+        grid-column: span 6;
+   }
+   .info6 {
+        grid-column: span 7;
+   }
+   .insta {
+        grid-column: span 6;
+   }
+   .info8{
+        grid-column: 1 / 2;
+        grid-row:6 / 7;
+   }
+   .info9 {
+    grid-column: 1 / 3;
+    grid-row:7 / 8;
+    justify-self: start;
+   }
+
+   .safety {
+    flex-direction: column;
+   }
+
+   .container-3 {
+    height: 300px;
+   }
+
+   .container-2{
+    padding:0;
+    position: static;
+    height:min-content;
+}
+
+    .mainphoto {
+        height:auto;
+    }
+}
+ 
+        
